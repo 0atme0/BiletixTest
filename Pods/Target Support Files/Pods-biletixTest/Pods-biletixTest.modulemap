@@ -1,0 +1,6 @@
+framework module Pods_biletixTest {
+  umbrella header "Pods-biletixTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

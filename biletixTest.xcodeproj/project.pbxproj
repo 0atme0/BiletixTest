@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75C4C264CA2A09E68CEA31C1 /* Pods_biletixTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914CB2BE1EB1086BA56328A2 /* Pods_biletixTest.framework */; };
+		E339C7691E25C14600A603F1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E339C7681E25C14600A603F1 /* Extension.swift */; };
 		E3571A5D1E2527D1002396D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A5C1E2527D1002396D5 /* AppDelegate.swift */; };
-		E3571A5F1E2527D1002396D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A5E1E2527D1002396D5 /* ViewController.swift */; };
+		E3571A5F1E2527D1002396D5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A5E1E2527D1002396D5 /* SearchViewController.swift */; };
 		E3571A621E2527D1002396D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3571A601E2527D1002396D5 /* Main.storyboard */; };
 		E3571A641E2527D1002396D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3571A631E2527D1002396D5 /* Assets.xcassets */; };
 		E3571A671E2527D1002396D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3571A651E2527D1002396D5 /* LaunchScreen.storyboard */; };
+		E3571A6F1E252D7A002396D5 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A6E1E252D7A002396D5 /* LoadData.swift */; };
+		E3571A721E254DE4002396D5 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A711E254DE4002396D5 /* HotelModel.swift */; };
+		E3571A771E2552A6002396D5 /* ModalDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A761E2552A6002396D5 /* ModalDatePickerViewController.swift */; };
+		E3571A791E2552BA002396D5 /* HotelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A781E2552BA002396D5 /* HotelsTableViewController.swift */; };
+		E3571A7B1E255377002396D5 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3571A7A1E255377002396D5 /* HotelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72EA97F5B4D5C0670BCC5C36 /* Pods-biletixTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-biletixTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-biletixTest/Pods-biletixTest.release.xcconfig"; sourceTree = "<group>"; };
+		914CB2BE1EB1086BA56328A2 /* Pods_biletixTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_biletixTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DC43B3ABCAC8130CA945B4 /* Pods-biletixTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-biletixTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-biletixTest/Pods-biletixTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E339C7681E25C14600A603F1 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		E3571A591E2527D1002396D5 /* biletixTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = biletixTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3571A5C1E2527D1002396D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3571A5E1E2527D1002396D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3571A5E1E2527D1002396D5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E3571A611E2527D1002396D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3571A631E2527D1002396D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3571A661E2527D1002396D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3571A681E2527D1002396D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3571A6E1E252D7A002396D5 /* LoadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		E3571A711E254DE4002396D5 /* HotelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		E3571A761E2552A6002396D5 /* ModalDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalDatePickerViewController.swift; sourceTree = "<group>"; };
+		E3571A781E2552BA002396D5 /* HotelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsTableViewController.swift; sourceTree = "<group>"; };
+		E3571A7A1E255377002396D5 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C4C264CA2A09E68CEA31C1 /* Pods_biletixTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1598629ECB74CEB098CDD0A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC43B3ABCAC8130CA945B4 /* Pods-biletixTest.debug.xcconfig */,
+				72EA97F5B4D5C0670BCC5C36 /* Pods-biletixTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF4C20E8D67BDA7414FCF0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914CB2BE1EB1086BA56328A2 /* Pods_biletixTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3571A501E2527D1002396D5 = {
 			isa = PBXGroup;
 			children = (
 				E3571A5B1E2527D1002396D5 /* biletixTest */,
 				E3571A5A1E2527D1002396D5 /* Products */,
+				1598629ECB74CEB098CDD0A3 /* Pods */,
+				AF4C20E8D67BDA7414FCF0FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,60 @@
 		E3571A5B1E2527D1002396D5 /* biletixTest */ = {
 			isa = PBXGroup;
 			children = (
-				E3571A5C1E2527D1002396D5 /* AppDelegate.swift */,
-				E3571A5E1E2527D1002396D5 /* ViewController.swift */,
-				E3571A601E2527D1002396D5 /* Main.storyboard */,
+				E3571A701E254DA9002396D5 /* LoadClass */,
+				E3571A731E254DEA002396D5 /* Model */,
+				E3571A7C1E255382002396D5 /* View */,
+				E3571A741E254DF5002396D5 /* Controller */,
+				E3571A751E254E12002396D5 /* Storyboards */,
 				E3571A631E2527D1002396D5 /* Assets.xcassets */,
-				E3571A651E2527D1002396D5 /* LaunchScreen.storyboard */,
+				E3571A5C1E2527D1002396D5 /* AppDelegate.swift */,
+				E339C7681E25C14600A603F1 /* Extension.swift */,
 				E3571A681E2527D1002396D5 /* Info.plist */,
 			);
 			path = biletixTest;
+			sourceTree = "<group>";
+		};
+		E3571A701E254DA9002396D5 /* LoadClass */ = {
+			isa = PBXGroup;
+			children = (
+				E3571A6E1E252D7A002396D5 /* LoadData.swift */,
+			);
+			name = LoadClass;
+			sourceTree = "<group>";
+		};
+		E3571A731E254DEA002396D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3571A711E254DE4002396D5 /* HotelModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E3571A741E254DF5002396D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3571A5E1E2527D1002396D5 /* SearchViewController.swift */,
+				E3571A761E2552A6002396D5 /* ModalDatePickerViewController.swift */,
+				E3571A781E2552BA002396D5 /* HotelsTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E3571A751E254E12002396D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E3571A651E2527D1002396D5 /* LaunchScreen.storyboard */,
+				E3571A601E2527D1002396D5 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E3571A7C1E255382002396D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3571A7A1E255377002396D5 /* HotelTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3571A6B1E2527D1002396D5 /* Build configuration list for PBXNativeTarget "biletixTest" */;
 			buildPhases = (
+				E3C61ABA427E1F920CF25779 /* [CP] Check Pods Manifest.lock */,
 				E3571A551E2527D1002396D5 /* Sources */,
 				E3571A561E2527D1002396D5 /* Frameworks */,
 				E3571A571E2527D1002396D5 /* Resources */,
+				81861C32C6EAB502592C398C /* [CP] Embed Pods Frameworks */,
+				AD2C191C84C3D2375985DE39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +181,7 @@
 				TargetAttributes = {
 					E3571A581E2527D1002396D5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 598SD24BP7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +217,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81861C32C6EAB502592C398C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-biletixTest/Pods-biletixTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2C191C84C3D2375985DE39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-biletixTest/Pods-biletixTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C61ABA427E1F920CF25779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3571A551E2527D1002396D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3571A5F1E2527D1002396D5 /* ViewController.swift in Sources */,
+				E3571A721E254DE4002396D5 /* HotelModel.swift in Sources */,
+				E3571A5F1E2527D1002396D5 /* SearchViewController.swift in Sources */,
+				E3571A791E2552BA002396D5 /* HotelsTableViewController.swift in Sources */,
+				E3571A7B1E255377002396D5 /* HotelTableViewCell.swift in Sources */,
 				E3571A5D1E2527D1002396D5 /* AppDelegate.swift in Sources */,
+				E3571A6F1E252D7A002396D5 /* LoadData.swift in Sources */,
+				E3571A771E2552A6002396D5 /* ModalDatePickerViewController.swift in Sources */,
+				E339C7691E25C14600A603F1 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,25 +398,29 @@
 		};
 		E3571A6C1E2527D1002396D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DC43B3ABCAC8130CA945B4 /* Pods-biletixTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 598SD24BP7;
 				INFOPLIST_FILE = biletixTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.biletixTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		E3571A6D1E2527D1002396D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EA97F5B4D5C0670BCC5C36 /* Pods-biletixTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 598SD24BP7;
 				INFOPLIST_FILE = biletixTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.biletixTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -299,6 +443,7 @@
 				E3571A6D1E2527D1002396D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
